@@ -109,7 +109,7 @@ executor_sol.toml
 explorer.toml
 ```
 
-If a destination file already exists, just overwrite it and report the overwrite to the user.
+If a destination file already exists, do not overwrite it automatically. Ask the user whether to replace it or skip this step.
 
 ### 1.5 Codex multi-agent configuration
 
